@@ -37,7 +37,7 @@ sh scripts/few_shot_finetune_coco_resnet101.sh
 ## Model training and evaluation on PASCAL VOC
 
 - We evaluate our model on the three splits as [TFA](https://github.com/ucbdrive/few-shot-object-detection).
-- Similarly as MSCOCO, we have two training stages, and two training steps during meta-training. 
+- Similar as MSCOCO, we have two training stages, and two training steps during meta-training. 
 - The training scripts for VOC split1 is 
 ```
 sh scripts/meta_training_pascalvoc_split1_resnet101.sh
