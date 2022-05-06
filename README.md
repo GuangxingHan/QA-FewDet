@@ -19,7 +19,7 @@ Our codebase is built upon [detectron2](https://github.com/facebookresearch/dete
 - Please prepare the original PASCAL VOC and MSCOCO datasets and also the few-shot datasets following [TFA](https://github.com/ucbdrive/few-shot-object-detection/blob/master/datasets/README.md) in the folder ./datasets/coco and ./datasets/pascal_voc respectively.
 - Please run the scripts in ./datasets/coco and ./datasets/pascal_voc step by step to generate the support images for both many-shot base classes (used during meta-training) and few-shot classes (used during few-shot fine-tuning).
 
-## Modeling training and evaluation on MSCOCO
+## Model training and evaluation on MSCOCO
 
 - We have two training stages, first meta-training and then few-shot fine-tuning.
 - During meta-training, we have two training steps. First, we train the baseline model following [FewX](https://github.com/fanq15/FewX). Then we add the
@@ -34,7 +34,7 @@ after meta-training, the model are directly evaluated on novel classes without f
 sh scripts/few_shot_finetune_coco_resnet101.sh
 ```
 
-## Modeling training and evaluation on PASCAL VOC
+## Model training and evaluation on PASCAL VOC
 
 - We evaluate our model on the three splits as [TFA](https://github.com/ucbdrive/few-shot-object-detection)
 - Similarly as MSCOCO, we have two training stages, and two training steps during meta-training. 
