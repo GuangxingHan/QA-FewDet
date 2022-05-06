@@ -78,6 +78,13 @@ If you use this work in your research or wish to refer to the baseline results p
   pages={4013--4022},
   year={2020}
 }
+@article{wang2020few,
+    title={Frustratingly Simple Few-Shot Object Detection},
+    author={Wang, Xin and Huang, Thomas E. and  Darrell, Trevor and Gonzalez, Joseph E and Yu, Fisher}
+    booktitle = {International Conference on Machine Learning (ICML)},
+    month = {July},
+    year = {2020}
+}
 ```
 
 ## Acknowledgement
