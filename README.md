@@ -29,7 +29,7 @@ sh scripts/meta_training_coco_resnet101.sh
 ```
 after meta-training, the model are directly evaluated on novel classes without fine-tuning.
 
-- We perform 1/2/3/5/10/30-shot fine-tuning after the two-step meta-training using the exact same few-shot datasets as [TFA](https://github.com/ucbdrive/few-shot-object-detection). The training script is
+- We perform 1/2/3/5/10/30-shot fine-tuning after the two-step meta-training, using the exact same few-shot datasets as [TFA](https://github.com/ucbdrive/few-shot-object-detection). The training script is
 ```
 sh scripts/few_shot_finetune_coco_resnet101.sh
 ```
