@@ -7,7 +7,7 @@ This repo contains the official PyTorch implementation for the ICCV 2021 paper: 
 ## Highlights
 
 - We propose a novel graph based model that considers class-class, class-proposal, and proposal-proposal relations for few-shot object detection.
-- We achieve state-of-the-art few-shot object detection performance without fine-tuning.
+- Our meta-learning based models achieve strong few-shot object detection performance without fine-tuning.
 
 ## Installation
 
