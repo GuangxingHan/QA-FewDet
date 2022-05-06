@@ -1,13 +1,13 @@
 # QA-FewDet
 
-This repo contains the official PyTorch implementation for the ICCV 2021 paper: 'Query Adaptive Few-Shot Object Detection with Heterogeneous Graph Convolutional Networks' ([paper](https://arxiv.org/abs/2112.09791))
+This repo contains the official PyTorch implementation for the ICCV 2021 paper: 'Query Adaptive Few-Shot Object Detection with Heterogeneous Graph Convolutional Networks' ([paper](https://arxiv.org/abs/2112.09791)).
 
 <div align="center"><img src="assets/figure_1_new.png" width="600"></div>
 
 ## Highlights
 
 - We propose a novel graph based model that considers class-class, class-proposal, and proposal-proposal relations for few-shot object detection.
-- We achieve state-of-the-art few-shot object detection performance without fine-tuning
+- We achieve state-of-the-art few-shot object detection performance without fine-tuning.
 
 ## Installation
 
@@ -27,7 +27,7 @@ proposed heterogeneous GCNs and train the whole model. The training script is
 ```
 sh scripts/meta_training_coco_resnet101.sh
 ```
-after meta-training, the model are directly evaluated on novel classes without fine-tuning
+after meta-training, the model are directly evaluated on novel classes without fine-tuning.
 
 - We perform 1/2/3/5/10/30-shot fine-tuning after the two-step meta-training using the exact same few-shot datasets as [TFA](https://github.com/ucbdrive/few-shot-object-detection). The training script is
 ```
@@ -36,7 +36,7 @@ sh scripts/few_shot_finetune_coco_resnet101.sh
 
 ## Model training and evaluation on PASCAL VOC
 
-- We evaluate our model on the three splits as [TFA](https://github.com/ucbdrive/few-shot-object-detection)
+- We evaluate our model on the three splits as [TFA](https://github.com/ucbdrive/few-shot-object-detection).
 - Similarly as MSCOCO, we have two training stages, and two training steps during meta-training. 
 - The training scripts for VOC split1 is 
 ```
