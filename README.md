@@ -89,5 +89,5 @@ If you use this work in your research or wish to refer to the baseline results p
 
 ## Acknowledgement
 
-This repo is developed based on [Meta Faster R-CNN](https://github.com/GuangxingHan/Meta-Faster-R-CNN) , [FewX](https://github.com/fanq15/FewX), [TFA](https://github.com/ucbdrive/few-shot-object-detection) and [detectron2](https://github.com/facebookresearch/detectron2). Thanks for their wonderful codebases.
+This repo is developed based on [Meta Faster R-CNN](https://github.com/GuangxingHan/Meta-Faster-R-CNN), [FewX](https://github.com/fanq15/FewX), [TFA](https://github.com/ucbdrive/few-shot-object-detection) and [detectron2](https://github.com/facebookresearch/detectron2). Thanks for their wonderful codebases.
 
