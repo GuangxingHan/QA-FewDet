@@ -57,18 +57,20 @@ sh scripts/few_shot_finetune_pascalvoc_split3_resnet101.sh
 ## Citing QA-FewDet
 If you use this work in your research or wish to refer to the baseline results published here, please use the following BibTeX entries:
 ```
-@InProceedings{Han_2021_ICCV,
-    author    = {Han, Guangxing and He, Yicheng and Huang, Shiyuan and Ma, Jiawei and Chang, Shih-Fu},
-    title     = {Query Adaptive Few-Shot Object Detection With Heterogeneous Graph Convolutional Networks},
-    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-    month     = {October},
-    year      = {2021},
-    pages     = {3263-3272}
+@inproceedings{han2021query,
+  title={Query adaptive few-shot object detection with heterogeneous graph convolutional networks},
+  author={Han, Guangxing and He, Yicheng and Huang, Shiyuan and Ma, Jiawei and Chang, Shih-Fu},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={3263--3272},
+  year={2021}
 }
-@inproceedings{han2021meta,
-  title={Meta Faster R-CNN: Towards Accurate Few-Shot Object Detection with Attentive Feature Alignment},
+@inproceedings{han2022meta,
+  title={Meta faster r-cnn: Towards accurate few-shot object detection with attentive feature alignment},
   author={Han, Guangxing and Huang, Shiyuan and Ma, Jiawei and He, Yicheng and Chang, Shih-Fu},
-  booktitle={Thirty-Sixth AAAI Conference on Artificial Intelligence (AAAI)},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={36},
+  number={1},
+  pages={780--789},
   year={2022}
 }
 @inproceedings{fan2020few,
@@ -78,12 +80,12 @@ If you use this work in your research or wish to refer to the baseline results p
   pages={4013--4022},
   year={2020}
 }
-@article{wang2020few,
-    title={Frustratingly Simple Few-Shot Object Detection},
-    author={Wang, Xin and Huang, Thomas E. and  Darrell, Trevor and Gonzalez, Joseph E and Yu, Fisher}
-    booktitle = {International Conference on Machine Learning (ICML)},
-    month = {July},
-    year = {2020}
+@inproceedings{wang2020frustratingly,
+  title={Frustratingly simple few-shot object detection},
+  author={Wang, Xin and Huang, Thomas E and Darrell, Trevor and Gonzalez, Joseph E and Yu, Fisher},
+  booktitle={Proceedings of the 37th International Conference on Machine Learning},
+  pages={9919--9928},
+  year={2020}
 }
 ```
 
