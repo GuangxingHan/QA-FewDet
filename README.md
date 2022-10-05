@@ -56,6 +56,10 @@ sh scripts/meta_training_pascalvoc_split3_resnet101.sh
 sh scripts/few_shot_finetune_pascalvoc_split3_resnet101.sh
 ```
 
+## Pre-trained models 
+
+We provided the meta-trained models over base classes for both MSCOCO dataset and the 3 splits on VOC dataset. The model links are [here](https://drive.google.com/drive/u/0/folders/1Opydf55rA28XKXEk_aoTKK_usjHXWepC).
+
 ## Citing QA-FewDet
 If you use this work in your research or wish to refer to the baseline results published here, please use the following BibTeX entries:
 ```
